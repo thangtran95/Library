@@ -1,0 +1,2 @@
+classs="wow animated fadeInLeft 
+data-wow-delay="1s"

@@ -1,0 +1,52 @@
+$(document).ready(function(){
+    $(".button").click(function(){
+        var root = $(this).parent();
+
+        if(root.find('i').hasClass('fa-caret-right')){
+           root.find('i').removeClass('fa-caret-right').addClass('fa fa-caret-down')
+        }
+        else{
+            root.find('i').removeClass('fa-caret-down').addClass('fa fa-caret-right')
+        }
+
+
+        root.find('.txt-guide').toggle();
+    });
+});
+
+<div class="row">
+    <div class="guide">
+        <a class="button" href="javascript:void(0)">Hướng dẫn đặt hàng <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+
+		<div class="txt-guide" style="display: none;"><hr>
+			<p ><p>C&aacute;c bước thực hiện</p>
+
+			<p>+ Bước 1:</p>
+
+			<p>Khi chọn được sản phẩm ưng &yacute;, bạn &quot;click&quot; v&agrave;o sản phẩm để xem to&agrave;n diện. Bạn &quot;click&quot; chọn size, m&agrave;u v&agrave; số lượng.</p>
+
+			<p><img alt="" src="/images/images/news/guild_pic-1.png" style="height:264px; width:361px" />&nbsp;&nbsp;<img alt="" src="/images/images/news/guild_pic-2.png" style="height:264px; width:361px" /></p>
+
+			<p>+ Bước 2:</p>
+
+<p>Bạn nhập một số th&ocirc;ng tin cần thiết: Họ v&agrave; t&ecirc;n, số điện thoại, địa chỉ giao h&agrave;ng, một số y&ecirc;u cầu quan trọng (nếu c&oacute;). Xem lại đơn đặt h&agrave;ng để đảm bảo kh&ocirc;ng sai s&oacute;t.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="/images/images/news/guild_pic-3.png" style="height:267px; width:364px" /></p>
+
+<p>+ Bước 3: Người d&ugrave;ng kiểm tra đơn h&agrave;ng v&agrave; lựa chọn h&igrave;nh thức thanh to&aacute;n:</p>
+
+<p>- Loại 1: Thanh to&aacute;n bằng tiền mặt</p>
+
+<p>Người d&ugrave;ng sẽ thanh to&aacute;n bằng tiền mặt khi nhận h&agrave;ng</p>
+
+<p>- Loại 2: Thanh to&aacute;n bằng thẻ t&iacute;n dụng</p>
+
+<p>Người d&ugrave;ng nhập th&ocirc;ng tin thẻ t&iacute;n dụng để thanh to&aacute;n online</p>
+
+<p>+ Bước 4: Hệ thống th&ocirc;ng b&aacute;o đặt h&agrave;ng ho&agrave;n tất</p>
+
+<p>&nbsp;</p></p>
+                </div>
+            </div>
